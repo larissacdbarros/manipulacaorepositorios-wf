@@ -117,35 +117,41 @@
             // 
             // btnNovaPasta
             // 
+            this.btnNovaPasta.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnNovaPasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovaPasta.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnNovaPasta.Location = new System.Drawing.Point(341, 71);
             this.btnNovaPasta.Name = "btnNovaPasta";
             this.btnNovaPasta.Size = new System.Drawing.Size(171, 38);
             this.btnNovaPasta.TabIndex = 2;
             this.btnNovaPasta.Text = "Criar Nova Pasta";
-            this.btnNovaPasta.UseVisualStyleBackColor = true;
+            this.btnNovaPasta.UseVisualStyleBackColor = false;
             this.btnNovaPasta.Click += new System.EventHandler(this.btnNovaPasta_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button2.Location = new System.Drawing.Point(341, 156);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(171, 38);
             this.button2.TabIndex = 2;
             this.button2.Text = "Deletar Pasta";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnMover
             // 
+            this.btnMover.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnMover.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMover.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnMover.Location = new System.Drawing.Point(616, 293);
             this.btnMover.Name = "btnMover";
             this.btnMover.Size = new System.Drawing.Size(171, 38);
             this.btnMover.TabIndex = 2;
             this.btnMover.Text = "Mover";
-            this.btnMover.UseVisualStyleBackColor = true;
+            this.btnMover.UseVisualStyleBackColor = false;
             this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
             // 
             // lblNomeArquivo
@@ -170,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(866, 525);
             this.Controls.Add(this.btnMover);
             this.Controls.Add(this.button2);
@@ -185,7 +191,10 @@
             this.Controls.Add(this.lblPastaOrigem);
             this.Controls.Add(this.lblNomePasDel);
             this.Controls.Add(this.lblNomePasCriar);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Name = "ManipulacaoDiretorios";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
